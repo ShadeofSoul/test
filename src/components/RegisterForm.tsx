@@ -100,7 +100,7 @@ const RegisterForm = () => {
         helperText={errors.confirmPassword?.message}
         error={!!errors.confirmPassword}
       />
-      <StyledButton type="submit" fullWidth color="success" variant="contained">
+      <StyledButton type="submit" fullWidth color="primary" variant="contained">
         Зарегистрироваться
       </StyledButton>
     </form>
